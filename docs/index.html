@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Paper Plugin Dev — A Claude Code plugin that supercharges Minecraft Paper plugin development with comprehensive Java 21 and Paper 1.21.x knowledge.">
+  <meta name="theme-color" content="#0d1117">
+  <title>Paper Plugin Dev — Claude Code Plugin for Minecraft Paper Development</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="#" class="navbar-brand">
+        <span class="icon">&#9878;</span> Paper Plugin Dev
+      </a>
+      <button class="navbar-toggle" aria-label="Toggle navigation">&#9776;</button>
+      <ul class="navbar-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#installation">Install</a></li>
+        <li><a href="https://github.com/ATOMGAMERAGA/Paper-ClaudePlugin" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">Claude Code Plugin &middot; Open Source</div>
+        <h1>Supercharge Minecraft Paper Plugin Development</h1>
+        <p>Give Claude deep knowledge of the Paper API, Java 21 patterns, and Minecraft server internals. Write production-quality plugins faster than ever.</p>
+        <div class="hero-buttons">
+          <a href="#installation" class="btn btn-primary">Get Started</a>
+          <a href="https://github.com/ATOMGAMERAGA/Paper-ClaudePlugin" class="btn btn-secondary" target="_blank" rel="noopener">View on GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <h2>What is <span class="highlight">Paper Plugin Dev</span>?</h2>
+          <p>Paper Plugin Dev is a Claude Code plugin that equips Claude with comprehensive, up-to-date knowledge of the Minecraft Paper server API. When installed, Claude can write, debug, and optimize Java plugins targeting Paper 1.21.x with professional patterns right out of the box.</p>
+          <p>Instead of Claude guessing at deprecated APIs or wrong patterns, this plugin provides a curated 2,500+ line reference covering every major subsystem &mdash; from event handling and Brigadier commands to NMS access and packet manipulation.</p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card fade-in">
+            <div class="stat-number">47</div>
+            <div class="stat-label">API Sections</div>
+          </div>
+          <div class="stat-card fade-in">
+            <div class="stat-number">2.5K+</div>
+            <div class="stat-label">Lines of Reference</div>
+          </div>
+          <div class="stat-card fade-in">
+            <div class="stat-number">1.21.x</div>
+            <div class="stat-label">Paper Version</div>
+          </div>
+          <div class="stat-card fade-in">
+            <div class="stat-number">21</div>
+            <div class="stat-label">Java Version</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="features">
+    <div class="container">
+      <div class="section-header">
+        <h2>Comprehensive Feature Coverage</h2>
+        <p>Everything Claude needs to build world-class Paper plugins, organized into clear categories.</p>
+      </div>
+      <div class="features-grid">
+
+        <!-- Feature 1 -->
+        <div class="feature-card">
+          <div class="feature-icon">&#9881;</div>
+          <h3>Project Setup &amp; Lifecycle</h3>
+          <p>Gradle and Maven configurations, plugin entry points, lifecycle API, and proper project structure for modern Paper plugins.</p>
+          <div class="feature-tags">
+            <span class="feature-tag">Gradle KTS</span>
+            <span class="feature-tag">Maven</span>
+            <span class="feature-tag">paper-plugin.yml</span>
+            <span class="feature-tag">Lifecycle</span>
+          </div>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="feature-card">
+          <div class="feature-icon">&#9889;</div>
+          <h3>Core API Systems</h3>
+          <p>Event handling with priorities, Brigadier command registration, Adventure and MiniMessage components, and the Data Component API.</p>
+          <div class="feature-tags">
+            <span class="feature-tag">Events</span>
+            <span class="feature-tag">Brigadier</span>
+            <span class="feature-tag">Adventure</span>
+            <span class="feature-tag">MiniMessage</span>
+          </div>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="feature-card">
+          <div class="feature-icon">&#128451;</div>
+          <h3>Data &amp; Storage</h3>
+          <p>Persistent Data Container (PDC), HikariCP database integration, YAML and JSON config management, and NBT reading.</p>
+          <div class="feature-tags">
+            <span class="feature-tag">PDC</span>
+            <span class="feature-tag">SQLite</span>
+            <span class="feature-tag">MySQL</span>
+            <span class="feature-tag">Config</span>
+          </div>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="feature-card">
+          <div class="feature-icon">&#127918;</div>
+          <h3>Gameplay Systems</h3>
+          <p>Inventory GUIs, entity and block manipulation, custom recipes, registries, potions, particles, world borders, map renderers, and mob AI.</p>
+          <div class="feature-tags">
+            <span class="feature-tag">GUI</span>
+            <span class="feature-tag">Entities</span>
+            <span class="feature-tag">Recipes</span>
+            <span class="feature-tag">Particles</span>
+            <span class="feature-tag">Mob AI</span>
+          </div>
+        </div>
+
+        <!-- Feature 5 -->
+        <div class="feature-card">
+          <div class="feature-icon">&#128274;</div>
+          <h3>Advanced &amp; Internals</h3>
+          <p>NMS access via paperweight-userdev, packet manipulation with ProtocolLib and PacketEvents, anti-cheat patterns, and custom world generation.</p>
+          <div class="feature-tags">
+            <span class="feature-tag">NMS</span>
+            <span class="feature-tag">Packets</span>
+            <span class="feature-tag">Anti-Cheat</span>
+            <span class="feature-tag">WorldGen</span>
+          </div>
+        </div>
+
+        <!-- Feature 6 -->
+        <div class="feature-card">
+          <div class="feature-icon">&#128736;</div>
+          <h3>Quality &amp; Patterns</h3>
+          <p>Performance best practices, structural design patterns, common mistake solutions, MockBukkit testing, logging, and error tracking.</p>
+          <div class="feature-tags">
+            <span class="feature-tag">Performance</span>
+            <span class="feature-tag">Testing</span>
+            <span class="feature-tag">Patterns</span>
+            <span class="feature-tag">Sentry</span>
+          </div>
+        </div>
+
+        <!-- Feature 7 -->
+        <div class="feature-card">
+          <div class="feature-icon">&#128268;</div>
+          <h3>Integrations</h3>
+          <p>PlaceholderAPI, Vault and LuckPerms permissions, ProtocolLib, PacketEvents, GrimAC anti-cheat, resource packs, and datapack integration.</p>
+          <div class="feature-tags">
+            <span class="feature-tag">PlaceholderAPI</span>
+            <span class="feature-tag">Vault</span>
+            <span class="feature-tag">LuckPerms</span>
+            <span class="feature-tag">GrimAC</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Installation -->
+  <section id="installation" class="installation">
+    <div class="container">
+      <div class="install-container">
+        <h2>Get Started in Seconds</h2>
+        <p>Install the plugin with a single command, or clone the repository for manual setup.</p>
+
+        <div class="install-step fade-in">
+          <div class="install-step-header">
+            <span class="step-number">1</span>
+            <h3>Install via Claude Code CLI</h3>
+          </div>
+          <p>Run this command in your terminal to install the plugin directly:</p>
+          <div class="code-block">
+            <button class="copy-btn">Copy</button>
+            <code><span class="prompt">$ </span>claude install-plugin ATOMGAMERAGA/Paper-ClaudePlugin</code>
+          </div>
+        </div>
+
+        <div class="install-step fade-in">
+          <div class="install-step-header">
+            <span class="step-number">2</span>
+            <h3>Or Install Manually</h3>
+          </div>
+          <p>Clone the repository and reference it as a local plugin:</p>
+          <div class="code-block">
+            <button class="copy-btn">Copy</button>
+            <code><span class="prompt">$ </span>git clone https://github.com/ATOMGAMERAGA/Paper-ClaudePlugin.git</code>
+          </div>
+          <br>
+          <div class="code-block">
+            <button class="copy-btn">Copy</button>
+            <code><span class="prompt">$ </span>claude --plugin-dir ./Paper-ClaudePlugin</code>
+          </div>
+        </div>
+
+        <div class="install-step fade-in">
+          <div class="install-step-header">
+            <span class="step-number">3</span>
+            <h3>Start Building</h3>
+          </div>
+          <p>Claude now has deep Paper API knowledge. Just ask it to create a plugin and watch it work with correct, modern patterns.</p>
+          <div class="code-block">
+            <code><span class="prompt">You: </span>Create a Paper plugin that adds custom enchantments with the Registry API</code>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <span class="footer-brand">Paper Plugin Dev</span>
+        <ul class="footer-links">
+          <li><a href="https://github.com/ATOMGAMERAGA/Paper-ClaudePlugin" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://github.com/ATOMGAMERAGA/Paper-ClaudePlugin/issues" target="_blank" rel="noopener">Issues</a></li>
+          <li><a href="https://github.com/ATOMGAMERAGA/Paper-ClaudePlugin/blob/main/LICENSE" target="_blank" rel="noopener">MIT License</a></li>
+        </ul>
+      </div>
+      <p class="footer-copy">&copy; 2026 Atom Gamer Arda A.G.A. Built with care for the Minecraft development community.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

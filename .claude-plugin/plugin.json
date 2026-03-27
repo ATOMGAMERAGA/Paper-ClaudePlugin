@@ -1,0 +1,11 @@
+{
+  "name": "paper-plugin-dev",
+  "description": "Minecraft Paper plugin development skill for Claude Code. Comprehensive reference for Java 21 plugin coding targeting Paper 1.21.x, covering API usage, event handling, commands, NMS/internals access, packet manipulation, performance optimization, and best practices.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Atom Gamer Arda A.G.A"
+  },
+  "homepage": "https://atomgameraga.github.io/Paper-ClaudePlugin/",
+  "repository": "https://github.com/ATOMGAMERAGA/Paper-ClaudePlugin",
+  "license": "MIT"
+}
