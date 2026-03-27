@@ -1,20 +1,13 @@
 ---
 name: paper-plugin-dev
 description: >
-  Minecraft Paper plugin development skill. Used for plugin coding targeting Java 21 and Paper 1.21.x
-  (1.21.1 - 1.21.11), API usage, event handling, command registration, NMS/internals access,
-  packet manipulation, performance optimization, and best practices.
-  ALWAYS use this skill in the following situations: writing/editing Minecraft plugins, Paper API usage,
-  Bukkit/Spigot/Paper events, Brigadier command system, Adventure/MiniMessage components,
-  Data Component API, PDC (Persistent Data Container), entity/block/item manipulation,
-  inventory GUIs, scheduler/async tasks, packet listening/sending, anti-cheat mechanics,
-  NMS (net.minecraft.server) access, paperweight-userdev usage, plugin.yml / paper-plugin.yml
-  configuration, Gradle/Maven project setup, ProtocolLib/PacketEvents integration,
-  world generation, scoreboard/team API, boss bar, title, action bar, tab list, resource pack,
-  database integration, config management, permission system, PlaceholderAPI integration,
-  and ANY coding task related to Minecraft server plugins. This skill should trigger when the user
-  uses words like "plugin", "addon", "Paper", "Bukkit", "Spigot", "Minecraft", "server mod",
-  "server", "SMP", or asks anything in the context of Java and Minecraft development.
+  Minecraft Paper plugin development skill for Java 21 and Paper 1.21.x. Use for: plugin coding,
+  Paper/Bukkit/Spigot API, event handling, Brigadier commands, Adventure/MiniMessage, Data Component
+  API, PDC, entity/block/item manipulation, inventory GUIs, scheduler/async tasks, packet handling,
+  NMS access, paperweight-userdev, plugin.yml/paper-plugin.yml, Gradle/Maven setup,
+  ProtocolLib/PacketEvents, world generation, scoreboard/boss bar/title/tab list, resource packs,
+  database, config, permissions, PlaceholderAPI. Trigger on: plugin, addon, Paper, Bukkit, Spigot,
+  Minecraft, server mod, SMP, or any Java+Minecraft development context.
 ---
 
 # Minecraft Paper Plugin Development — Java 21 & Paper 1.21.x
